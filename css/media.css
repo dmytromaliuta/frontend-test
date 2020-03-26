@@ -1,0 +1,82 @@
+@media screen and (max-width: 800px){
+    .container {
+        width: 720px;
+    }
+    .stepwrap:nth-child(1) span {
+        width: 150px;
+    }
+    .stepwrap:nth-child(2) span {
+        width: 184px;
+    }
+    .stepwrap:nth-child(3) span {
+        width: 182px;
+    }
+    .stepwrap:nth-child(4) span {
+        width: 164px;
+    }
+    .rangewrap {
+        border-left: 720px solid #ffffff;
+    }
+    .steps {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container {
+        width: 280px;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    header {
+        height: 50px;
+    }
+    .input-label {
+        width: 280px;
+        overflow: hidden;
+    }
+    .aboutme form input {
+        padding: 0px 10px;
+        padding-top: 26px;
+        width: 80%;
+        box-sizing: border-box;
+    }
+    .input-label span {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .select-btn {
+        width: 280px;
+    }
+    .select-block {
+        width: 280px;
+    }
+    .slills__block {
+        flex-direction: column;
+    }
+    .skill:last-child {
+        margin-bottom: 15px;
+    }
+    .skills__column {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .steps {
+        display: none;
+    }
+    .javascript .title__block {
+        margin-bottom: 50px;
+    }
+    .about .title__block p {
+        width: 100%;
+    }
+    .text-area textarea {
+        width: 100%;
+    }
+    .slills__block {
+        margin-bottom: 80px;
+    }
+}
